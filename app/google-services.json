@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "771114199280",
+    "firebase_url": "https://syncup-6d238-default-rtdb.firebaseio.com",
+    "project_id": "syncup-6d238",
+    "storage_bucket": "syncup-6d238.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771114199280:android:e41469130a703918047a35",
+        "android_client_info": {
+          "package_name": "com.syncup.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlSkesXmpU_QjlIUSPmGq0ABaVLB2hYkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
