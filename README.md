@@ -54,10 +54,3 @@ It combines **real-time chat (like WhatsApp)** with **social media features (lik
   - **Volley** → FCM handling
 
 ---
-
-## 🚀 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/SyncUP.git
-   cd SyncUP
