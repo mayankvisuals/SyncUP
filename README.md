@@ -1,68 +1,63 @@
-SyncUP is a feature-rich, modern social messaging application built using Jetpack Compose, Kotlin, and Firebase. This app is an excellent combination of real-time chat (like WhatsApp) and social media features (like Instagram).
+# 📱 SyncUP
 
- *Key Features
-💬 Real-time Chat
-Personal & Group Chats: Users can chat 1-on-1 or in group channels.
+**SyncUP** is a feature-rich, modern social messaging application built using **Jetpack Compose**, **Kotlin**, and **Firebase**.  
+It combines **real-time chat (like WhatsApp)** with **social media features (like Instagram)** to deliver a seamless, all-in-one experience.
 
-Media Sharing: Facility to send photos and videos.
+---
 
-Advanced Messaging:
+## ✨ Key Features
 
-Message Replies: Reply to any message.
+### 💬 Real-time Chat
+- **Personal & Group Chats**: 1-on-1 or group messaging.
+- **Media Sharing**: Send photos and videos.
+- **Advanced Messaging**:
+  - Reply to specific messages.
+  - React with emojis.
+  - Real-time typing indicators.
+  - “Seen by” message receipts.
+  - Edit or unsend messages.
+  - Mute or hide chats.
 
-Reactions: React to messages with emojis.
+### 👥 Social Networking
+- **User Profiles**: Custom photo, bio, and username.
+- **Follow System**: Follow/unfollow other users.
+- **User Discovery**: Search by username.
+- **Notifications**: Real-time alerts for followers & activities.
 
-Typing Indicators: See who is typing in real-time.
+### 📸 Ephemeral Stories
+- **Create Stories**: Share 24-hour photo/video stories.
+- **Add Music**: Attach music via YouTube search.
+- **Interactive Viewer**: Instagram-like full-screen stories.
+- **Privacy & Insights**: See who viewed your stories.
+- **Story Management**: Delete your own stories.
 
-Seen Status: Track message receipts with the "Seen by" feature.
+---
 
-Edit & Unsend: Edit or unsend sent messages.
+## 🛠 Tech Stack & Architecture
 
-Chat Management: Mute or hide chats.
+### Frontend
+- **UI**: 100% Jetpack Compose
+- **Language**: Kotlin
+- **Architecture**: MVVM (Model-View-ViewModel)
+- **Dependency Injection**: Hilt
+- **Navigation**: Jetpack Navigation Compose
+- **Image Loading**: Coil
 
-👥 Social Networking
-User Profiles: Each user has a custom profile (photo, bio, username).
+### Backend & Services
+- **Firebase Realtime Database**: Messages, user data, real-time sync.
+- **Firebase Authentication**: Secure signup & login.
+- **Firebase Cloud Messaging (FCM)**: Push notifications.
+- **Supabase Storage**: Profile photos & media storage.
+- **Async Operations**: Kotlin Coroutines & Flow
+- **API Calls**: 
+  - **Ktor** → YouTube API (music search)
+  - **Volley** → FCM handling
 
-Follow System: Users can follow/unfollow each other.
+---
 
-User Discovery: Search for other users by username.
+## 🚀 Getting Started
 
-Notifications: Real-time alerts for new followers and other activities.
-
-📸 Ephemeral Stories
-Create Stories: Create 24-hour stories from photos or videos in the gallery.
-
-Add Music: Add music to your stories by searching on YouTube.
-
-Interactive Viewer: A full-screen, Instagram-like story viewer.
-
-Privacy: See who has viewed your story.
-
-Story Management: Delete your own stories.
-
-🛠️ Tech Stack & Architecture
-UI: 100% built with Jetpack Compose.
-
-Language: Kotlin
-
-Architecture: MVVM (Model-View-ViewModel)
-
-Dependency Injection: Hilt
-
-Backend & Real-time Features:
-
-Firebase Realtime Database: For messages, user data, and real-time updates.
-
-Firebase Authentication: For secure user login and signup.
-
-Firebase Cloud Messaging (FCM): For push notifications.
-
-Media Storage: Supabase Storage (Profile photos, chat media, etc.)
-
-Async Operations: Kotlin Coroutines & Flow
-
-Navigation: Jetpack Navigation Compose
-
-Image Loading: Coil
-
-API Calls: Ktor (YouTube API) & Volley (FCM)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/SyncUP.git
+   cd SyncUP
